@@ -1,0 +1,991 @@
+/* ------------- menu style ---------------- */
+.menu {
+  width: 1920px;
+  height: 500px;
+  background: var(--real_p_red);
+  padding-top: 150px;
+  display: none;
+  position: fixed;
+  z-index: 2000;
+}
+
+.menu_cnt {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu_cnt img {
+  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.3));
+}
+
+.menu_cnt img:hover {
+  margin: 0 35px;
+  transform: scale(1.3);
+  /* transform-origin: bottom center; */
+  transition: all 0.4s;
+  filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.6));
+}
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* -------------- nav style ----------------- */
+nav {
+  width: 1920px;
+  height: 90px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+}
+
+nav .nintendo_logo {
+  width: 171px;
+  height: 42px;
+  margin-left: 42px;
+}
+
+/* ---------------- intro style ---------------- */
+.intro {
+  background: var(--real_p_red);
+}
+
+.intro .nav_box {
+  width: 1920px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro img:first-child {
+  width: 171px;
+  height: 42px;
+  margin-left: 42px;
+}
+
+.intro video {
+  width: 1280px;
+  margin-left: 320px;
+  margin-top: 135px;
+}
+
+/* ------------- hero page style ----------- */
+
+.hero .s_mario {
+  width: 100%;
+  position: absolute;
+  top: 194px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero .s_mario .blank {
+  width: 100px;
+  height: 100px;
+  visibility: hidden;
+}
+
+.hero > img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 951px;
+}
+
+.hero .icon img {
+  position: absolute;
+  z-index: 2;
+}
+
+.hero .icon img:nth-child(1) {
+  left: 1456px;
+  top: 106px;
+}
+
+.hero .icon img:nth-child(2) {
+  left: 1614px;
+  top: 825px;
+}
+
+.hero .icon img:nth-child(3) {
+  left: 308px;
+  top: 194px;
+}
+
+.hero .icon img:nth-child(4) {
+  left: 855px;
+  top: 295px;
+}
+
+.hero .icon img:nth-child(5) {
+  left: 217px;
+  top: 908px;
+}
+
+.hero .icon img:nth-child(6) {
+  left: 910px;
+  top: 702px;
+}
+
+.hero .main_text p {
+  position: absolute;
+  line-height: 100%;
+
+  z-index: 1;
+}
+
+.hero .main_text p:nth-child(1) {
+  color: #000;
+  font-size: 80px;
+  font-weight: 250;
+
+  left: 684px;
+  top: 747px;
+}
+
+.hero .main_text p:nth-child(2) {
+  color: var(--primary_red);
+  font-size: 150px;
+  font-weight: 600;
+  left: 875px;
+  top: 686px;
+}
+
+.hero .cap p {
+  color: var(--gray_700);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 179.004%; /* 28.641px */
+  position: absolute;
+  left: 1017px;
+  top: 838px;
+}
+
+.hero .play {
+  padding: 0;
+  display: flex;
+
+  column-gap: 40px;
+  /* border: 1px solid; */
+  margin: auto;
+}
+
+.hero .play img:nth-child(1) {
+  margin-top: 177px;
+  margin-left: -30px;
+}
+
+.hero .play > img:nth-child(2) {
+  margin-bottom: 222px;
+}
+
+/* .hero .play > img:nth-child(3) {
+  margin-top: 0;
+} */
+
+.hero .play > img:nth-child(4) {
+  margin-top: 217px;
+}
+
+.hero .anytime img {
+  position: absolute;
+  left: 203px;
+  top: 505px;
+}
+
+/* ------------- hw 1p style ---------------- */
+
+.hardware01 .switch_shadow {
+  left: 494px;
+  top: 760px;
+}
+
+.hardware01 .title .Nintendo,
+.hardware01 .title .Nintendo_s {
+  color: var(--primary_red);
+
+  font-size: 208px;
+
+  font-weight: 800;
+  line-height: 100%; /* 208px */
+}
+
+.hardware01 .title .Nintendo {
+  left: 246px;
+  top: 150px;
+}
+
+.hardware01 .title .Nintendo_s {
+  opacity: 0.4;
+  filter: blur(10px);
+  left: 256px;
+  top: 160px;
+}
+
+.hardware01 .title .Switch,
+.hardware01 .title .Switch_s {
+  color: var(--primary_red);
+
+  font-size: 195px;
+
+  font-weight: 800;
+  line-height: 100%; /* 195px */
+}
+
+.hardware01 .title .Switch {
+  left: 291px;
+  top: 621px;
+}
+
+.hardware01 .title .Switch_s {
+  opacity: 0.4;
+  filter: blur(10px);
+  left: 301px;
+  top: 631px;
+}
+
+.hardware01 .cap {
+  color: var(--gray_800);
+
+  font-size: 26px;
+
+  font-weight: 300;
+  line-height: 34px; /* 130.769% */
+  left: 300px;
+  top: 830px;
+}
+
+.hardware01 .oled {
+  position: absolute;
+
+  left: 370px;
+
+  top: 226px;
+  /* display: block; */
+}
+
+.hardware01 .circles .hw01_c01 {
+  left: 964px;
+  top: 320px;
+}
+
+.hardware01 .circles .hw01_c02 {
+  left: 1509px;
+  top: 235px;
+}
+
+.hardware01 .circles .hw01_c03 {
+  left: 1543px;
+  top: 871px;
+}
+
+.hardware01 .OLED_text {
+  color: var(--primary_red);
+  text-align: right;
+  font-size: 213px;
+  font-weight: 800;
+  line-height: 100%; /* 213px */
+  left: 942px;
+  top: 606px;
+  z-index: 4;
+}
+
+.hardware01 .OLED_mask {
+  left: 963px;
+  top: 320px;
+  z-index: 5;
+}
+
+/* -------------- hardware 2p style ----------- */
+
+.hardware02 * {
+  position: absolute;
+}
+
+.hardware02 .switch_shadow {
+  left: 548px;
+  top: 850px;
+}
+
+.hardware02 .cap {
+  color: var(--gray_800);
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 34px; /* 130.769% */
+  left: 1152px;
+  top: 931px;
+}
+
+.hardware02 .title .switch {
+  left: 379px;
+  top: 48;
+  transform: rotate(5.179deg);
+}
+
+.hardware02 .circles .hw02_c01 {
+  left: 544px;
+  top: 90px;
+}
+.hardware02 .circles .hw02_c02 {
+  left: 1417px;
+  top: 508px;
+}
+.hardware02 .circles .hw02_c03 {
+  left: 417px;
+  top: 140px;
+}
+
+.hardware02 .title .Nintendo_s {
+  color: var(--secondary_blue);
+  font-size: 208px;
+  font-weight: 800;
+  line-height: 100%;
+  opacity: 0.4;
+  filter: blur(10px);
+  left: 762px;
+  top: 719px;
+}
+
+.hardware02 .title .Nintendo {
+  color: var(--secondary_blue);
+  font-size: 208px;
+  font-weight: 800;
+  line-height: 100%;
+  left: 752px;
+  top: 709px;
+}
+
+.hardware02 .title .Switch_s {
+  color: var(--secondary_blue);
+  font-size: 195px;
+  font-weight: 800;
+  line-height: 100%;
+  opacity: 0.4;
+  filter: blur(10px);
+  left: 395px;
+  top: 254px;
+}
+
+.hardware02 .title .Switch {
+  color: var(--secondary_blue);
+  font-size: 195px;
+  font-weight: 800;
+  line-height: 100%;
+  left: 385px;
+  top: 244px;
+}
+
+.hardware02 .switch_mask {
+  left: 544px;
+  top: 90px;
+}
+
+/* ------------- hardware03_gray style ------------ */
+
+.hardware03_gray {
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+}
+
+.hardware03_gray .circles img:nth-child(1) {
+  left: 1142px;
+  top: 81px;
+}
+.hardware03_gray .circles img:nth-child(2) {
+  left: 297px;
+  top: 416px;
+}
+.hardware03_gray .circles img:nth-child(3) {
+  left: 1648px;
+  top: 595px;
+}
+.hardware03_gray .circles img:nth-child(4) {
+  left: 258px;
+  top: 322px;
+}
+.hardware03_gray .title > img:nth-child(2) {
+  left: 411px;
+  top: 222px;
+  transform: rotate(11.75deg);
+}
+.hardware03_gray .title > img:last-child {
+  left: 688.8px;
+  top: 113px;
+}
+
+.hardware03_gray .cap {
+  color: var(--gray_800);
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 34px; /* 130.769% */
+  left: 271px;
+  top: 884px;
+}
+
+.hardware03_gray > span {
+  color: var(--gray_500);
+  /* leading-trim: both;
+  text-edge: cap; */
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 34px; /* 212.5% */
+  left: 1253px;
+  top: 948px;
+}
+
+.hardware03_gray .title #Nintendo {
+  color: var(--gray_700);
+  font-size: 185px;
+  font-weight: 800;
+  line-height: 100%; /* 185px */
+  left: 264px;
+  top: 685px;
+}
+
+.hardware03_gray .title #Nintendo_s {
+  color: var(--gray_700);
+  font-size: 185px;
+  font-weight: 800;
+  line-height: 100%; /* 185px */
+  opacity: 0.4;
+  filter: blur(8.978022575378418px);
+  left: 265px;
+  top: 694px;
+}
+
+.hardware03_gray .title #Switch {
+  color: var(--gray_700);
+  font-size: 185px;
+  font-weight: 800;
+  line-height: 100%; /* 185px */
+  left: 689px;
+  top: 113px;
+}
+.hardware03_gray .title #Switch_s {
+  color: var(--gray_700);
+  font-size: 185px;
+  font-weight: 800;
+  line-height: 100%; /* 185px */
+  opacity: 0.4;
+  filter: blur(10px);
+  left: 699px;
+  top: 123px;
+  z-index: -10;
+}
+
+.hardware03_gray .pickcolor {
+  height: 36px;
+  display: flex;
+  column-gap: 18.5px;
+  left: 1247px;
+  top: 989px;
+}
+
+.hardware03_gray .pickcolor > * {
+  width: 57.803px;
+  height: 36px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  position: relative;
+}
+
+.hardware03_gray .pickcolor #selected {
+  border: 3px solid #000;
+}
+
+.hardware03_gray .pickcolor .gray {
+  background: #70777a;
+}
+.hardware03_gray .pickcolor .yellow {
+  background: #fdf050;
+}
+
+.hardware03_gray .pickcolor .cyan {
+  background: #50b3b6;
+}
+
+.hardware03_gray .pickcolor .pink {
+  background: #ec5882;
+}
+
+.hardware03_gray .pickcolor .blue {
+  background: #062b91;
+}
+
+/* ----------- main01 page style ----- */
+.main01 {
+  overflow: hidden;
+  background-color: var(--primary_red);
+  scroll-snap-type: y mandatory;
+}
+
+.main01 #joycon {
+  left: -155px;
+  top: 380px;
+  transform: rotate(-215.958deg);
+  /* transform: rotateX(-180deg); */
+}
+.main01 #play {
+  left: 436px;
+  top: 418px;
+}
+
+.main01 #together {
+  left: 152px;
+  top: 670px;
+}
+
+.main01 #blur {
+  display: none;
+}
+
+.line {
+  width: 1px;
+  height: 325px;
+  opacity: 0.6;
+  background: #e6e6e6;
+  left: 1272px;
+  top: 284px;
+}
+
+.main01 p {
+  color: var(--gray_100, #e6e6e6);
+  font-size: 26px;
+  font-weight: 200;
+  line-height: 34px; /* 130.769% */
+  opacity: 0.6;
+  left: 1314px;
+  top: 298px;
+  width: 508px;
+}
+
+/* -----------game01 zelda + switch page style ----------- */
+.game {
+  position: relative;
+}
+
+.game_c .switchImage {
+  transform-origin: center center;
+  border: 1px solid #fff;
+  position: relative;
+  width: 1239px;
+  height: 541px;
+  margin: auto;
+  margin-top: 269.5px;
+  /* transform: translateY(-50%) !important; */
+}
+
+.game_c .switchImage .s_left {
+  position: absolute;
+
+  z-index: -1;
+}
+.game_c .s_center {
+  position: absolute;
+  left: 171px;
+  z-index: 10;
+}
+.game_c .s_right {
+  position: absolute;
+  right: 0;
+  top: -170px;
+  z-index: -1;
+}
+
+.game_c .switch_bg {
+  position: absolute;
+  background: #ffffff;
+  width: 863px;
+  height: 486px;
+  /* margin: auto; */
+  /* transform: translate(-7px, -242px); */
+  left: 522px;
+  top: 290px;
+  overflow: hidden;
+}
+
+.game_c .switch_bg .thumbnail {
+  display: flex;
+  column-gap: 31px;
+  padding: 100px 0 100px 50px;
+}
+
+.game_c .select {
+  width: 285.5px;
+  height: 350px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.game_c .zd_imgs .zelda_video {
+  width: 863px;
+  height: 486px;
+  position: absolute;
+  left: 523px;
+  top: 289px;
+  transform: translateX(-1px);
+}
+
+.game_c .zd_imgs .zelda_logo {
+  position: absolute;
+  opacity: 0;
+  left: 748px;
+  top: 370px;
+  z-index: 100;
+}
+
+.blank {
+  width: 1920px;
+  height: 1080px;
+  background-color: #efefef;
+}
+
+/* ------------------ zelda full page style --------------- */
+
+/* .zelda .zelda_cnt * {
+  display: none;
+} */
+
+.game_c .zelda_cnt > img:nth-child(1) {
+  position: absolute;
+  left: 917px;
+  top: 136px;
+  z-index: 100;
+}
+
+.game_c .zelda_cnt .card01,
+.card02,
+.card03,
+.card01bhd,
+.card02bhd,
+.card03bhd {
+  position: absolute;
+  box-shadow: 4px 4px 20px 10px rgba(0, 0, 0, 0.3);
+}
+
+.game_c .zelda_cnt .card .card01 {
+  z-index: 115;
+  left: 474px;
+  top: 266px;
+}
+
+.game_c .zelda_cnt .card .card02 {
+  left: 1376px;
+  top: 476px;
+}
+
+.game_c .zelda_cnt .card .card03 {
+  left: 113px;
+  top: 476px;
+}
+
+/* card01 */
+.game_c .zelda_cnt .card .card01bhd {
+  z-index: 102;
+  left: 474px;
+  top: 266px;
+}
+
+.game_c .card01body,
+.card02body,
+.card03body {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 170%; /* 40.8px */
+  z-index: 130;
+}
+
+.game_c .card01body {
+  width: 633px;
+  left: 644px;
+  top: 573px;
+}
+
+.game_c .create {
+  position: absolute;
+  left: 831px;
+  top: 401px;
+  z-index: 104;
+}
+
+.game_c .line_c {
+  position: absolute;
+  top: 473px;
+  left: 773px;
+  z-index: 135;
+}
+
+.game_c .eyes {
+  position: absolute;
+  width: 883px;
+  height: 40px;
+  left: 519px;
+  top: 520px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 135;
+}
+
+/* card02 */
+
+.game_c .card02body {
+  width: 633px;
+  left: 644px;
+  top: 573px;
+}
+.game_c .card02bhd {
+  width: 973px;
+  left: 480px;
+  top: 266px;
+  z-index: 120;
+}
+
+.game_c .explore {
+  position: absolute;
+  left: 815px;
+  top: 401px;
+  width: 287px;
+  z-index: 130;
+}
+
+/* card03 */
+
+.game_c .card03bhd {
+  z-index: 110;
+  width: 973px;
+  left: 478px;
+  top: 270px;
+}
+.game_c .discover {
+  position: absolute;
+  left: 804px;
+  top: 401px;
+  z-index: 130;
+}
+.game_c .card03body {
+  left: 644px;
+  top: 573px;
+  width: 633px;
+}
+
+.game_c .zelda_text > img {
+  position: absolute;
+  fill: rgba(255, 255, 255, 0.02);
+}
+
+.game_c .zelda_cnt .zelda_text > img:nth-child(1) {
+  left: 46px;
+  top: 11px;
+}
+
+.game_c .zelda_cnt .zelda_text > img:nth-child(2) {
+  left: 0;
+  top: 775px;
+}
+.game_c .zelda_cnt .bg_shadow {
+  width: 1920px;
+  height: 1080px;
+  flex-shrink: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  left: 0;
+  top: 0;
+}
+
+.game_c .zelda_cnt .zelda_id {
+  position: absolute;
+  display: flex;
+  width: 1643px;
+  height: 73px;
+  justify-content: space-between;
+  align-items: center;
+  left: 137px;
+  top: 979px;
+}
+
+.game_c .zelda_cnt .zelda_id .footline {
+  width: 1547px;
+  stroke-width: 1px;
+  stroke: var(--gray_300);
+  mix-blend-mode: color-dodge;
+  padding: 0;
+  margin: 0;
+  /* overflow: hidden; */
+}
+
+.game_c .zelda_cnt .factor * {
+  position: absolute;
+  mix-blend-mode: color-burn;
+}
+
+.game_c .zelda_cnt .factor img:nth-child(1) {
+  left: 1689px;
+  top: 244px;
+  transform: rotate(-40deg);
+}
+
+.game_c .zelda_cnt .factor img:nth-child(2) {
+  left: 366px;
+  top: 736px;
+}
+
+/* ---------------- game02 animal crossing  -------------------- */
+
+.animal {
+  position: absolute;
+  width: 100%;
+  height: 1080px;
+  left: 0;
+  top: 0;
+}
+
+.animal .ac_imgs * {
+  position: absolute;
+}
+
+.animal .ac_video {
+  width: 863px;
+  height: 489px;
+  left: 521px;
+  top: 287px;
+  z-index: 3000;
+}
+
+.animal .ac_logo {
+  left: 720px;
+  top: 300px;
+  z-index: 4000;
+}
+
+.animal .ac_cnt {
+  position: absolute;
+}
+
+.animal .ac_cnt > img {
+  position: absolute;
+}
+.animal .ac_cnt .yeoul {
+  left: 133px;
+  top: 490px;
+  z-index: 3004;
+}
+
+.animal .ac_cnt .textballon {
+  position: absolute;
+  left: 745px;
+  top: 697px;
+  z-index: 3005;
+}
+
+.animal .ac_cnt .textballon2 {
+  position: absolute;
+  visibility: hidden;
+}
+
+/* house */
+
+.animal .house * {
+  position: absolute;
+  z-index: 3002;
+}
+
+.animal .house_main {
+  left: 0;
+  top: -103px;
+}
+.animal .house_cap {
+  left: 1204px;
+  top: 228px;
+  z-index: 3006;
+}
+
+.animal .house_body,
+.DIY_body,
+.fishing_body {
+  color: #5e4000;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 150%; /* 48px */
+}
+
+.animal .house_body {
+  width: 692px;
+  z-index: 3005;
+  left: 926px;
+  top: 782px;
+}
+
+.animal .id_house {
+  left: 1586px;
+}
+
+/* DIY */
+
+.animal .DIY *,
+.fishing * {
+  position: absolute;
+}
+
+.animal .DIY_main {
+  left: -54px;
+  top: 134px;
+  z-index: 3101;
+}
+
+.animal .DIY_cap {
+  left: 808px;
+  top: 540px;
+  z-index: 3100;
+}
+
+.animal .id_DIY {
+  left: 1585px;
+  top: -5px;
+  z-index: 3101;
+}
+
+.animal .ac_bg02 {
+  z-index: 3002;
+}
+
+.animal .DIY_body {
+  width: 799px;
+  left: 790px;
+  top: 790px;
+  z-index: 3110;
+}
+
+/* fishing */
+
+.animal .fishing_main {
+  left: 989px;
+  top: 148px;
+  z-index: 3200;
+}
+
+.animal .id_fishing {
+  left: 1585px;
+  top: -4px;
+  z-index: 3201;
+}
+
+.animal .fishing_cap {
+  left: 719px;
+  top: 476px;
+  z-index: 3202;
+}

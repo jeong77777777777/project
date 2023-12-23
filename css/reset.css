@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* root style */
+:root {
+  --primary_red: #d42d26;
+  --secondary_blue: #00bedf;
+  --real_p_red: #e21217;
+  --gray_100: #e6e6e6;
+  --gray_200: #cccccc;
+  --gray_300: #b3b3b3;
+  --gray_400: #999999;
+  --gray_500: #808080;
+  --gray_600: #666666;
+  --gray_700: #4d4d4d;
+  --gray_800: #333333;
+  --gray_900: #1a1a1a;
+
+  scroll-behavior: smooth;
+}
+
+/* Reset style */
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1920px;
+  /* border: 1px solid; */
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+p,
+span,
+em,
+strong {
+  font-family: Outfit;
+  font-style: normal;
+}

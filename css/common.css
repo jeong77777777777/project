@@ -1,0 +1,71 @@
+/* whole page style */
+.intro,
+.hero,
+.hardware01,
+.hardware02,
+.hardware03_gray,
+.main01,
+.game_c,
+.pokemon {
+  width: 100%;
+  height: 1080px;
+  /* border: 1px solid #000; */
+  position: relative;
+  overflow: hidden;
+}
+
+.hardware01 *,
+.hardware02 *,
+.hardware03_gray *,
+.main01 * {
+  position: absolute;
+}
+
+.hardware {
+  display: flex;
+  width: 5760px;
+
+  border: 1px solid;
+}
+
+/* arrow style */
+.hardware01 .arrow,
+.hardware02 .arrow,
+.hardware03_gray .arrow {
+  width: 100%;
+  padding: 90px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hardware01 .arrow > *,
+.hardware02 .arrow > *,
+.hardware03_gray .arrow > * {
+  position: static;
+}
+
+.hardware03_gray .arrow > img:nth-child(2) {
+  transform: rotate(180deg);
+}
+
+.id_hw {
+  position: fixed;
+  left: 1692px;
+  top: 1010px;
+}
+
+#or01,
+#or02,
+#or03 {
+  left: 92px;
+  top: 1025px;
+}
+
+.game {
+  width: 100%;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
